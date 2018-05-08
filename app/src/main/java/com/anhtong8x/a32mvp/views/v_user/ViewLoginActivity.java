@@ -1,4 +1,4 @@
-package com.anhtong8x.a32mvp;
+package com.anhtong8x.a32mvp.views.v_user;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,10 +7,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.anhtong8x.a32mvp.R;
 import com.anhtong8x.a32mvp.presenters.p_user.PresenterLgUserLogin;
 import com.anhtong8x.a32mvp.views.v_user.ViewImUserLogin;
 
-public class MainActivity extends AppCompatActivity implements ViewImUserLogin, View.OnClickListener {
+public class ViewLoginActivity extends AppCompatActivity implements ViewImUserLogin, View.OnClickListener {
 
     PresenterLgUserLogin presenterLgUserLogin;
 
